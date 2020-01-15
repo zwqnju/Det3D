@@ -1,5 +1,9 @@
 ## Installation
 
+pip install pyyaml
+pip install requests
+去掉ros的环境变量
+
 ### Requirements
 
 - Linux
