@@ -48,6 +48,10 @@ $ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--c
 ```bash
 $ git clone https://github.com/poodarchu/nuscenes.git
 $ cd nuscenes
+
+$ pip install setuptools==39.1.0
+$ pip install -r requirements.txt
+
 $ python setup.py install
 ```
 
