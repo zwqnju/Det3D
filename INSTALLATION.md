@@ -59,16 +59,12 @@ $ python setup.py install
 
 The installation should be under the gpu environment.
 
-#### Clone the Det3D repository
-
 ```bash
 $ git clone https://github.com/poodarchu/Det3D.git
 $ cd Det3D
-```
 
-#### Install Det3D
+$ pip install -r requirements.txt
 
-```bash
 $ python setup.py build develop
 ```
 
@@ -78,7 +74,5 @@ $ python setup.py build develop
 
 Run `python setup.py build develop` again.
 
-#### "values of 'package_data' dict" must be a list of strings (got '*.json') when installing nuscenes-devikit
 
-Use `setuptools 39.1.0 `
 
